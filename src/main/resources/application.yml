@@ -1,0 +1,15 @@
+aws:
+  access-key: "${env:AWS_ACCESS_KEY_ID}"
+  secret-key: "${env:AWS_ACCESS_KEY_ID}"
+  sqs-resource: "arn:aws:sqs:us-east-2:927499044834:aws-sqs-springboot"
+  dynamodb:
+  #endpoint: "http://localhost:8000"
+
+cloud:
+  aws:
+    stack:
+      auto: false
+    region:
+      static: us-east-2
+
+
